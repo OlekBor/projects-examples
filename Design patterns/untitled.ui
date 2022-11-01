@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>596</width>
+    <height>130</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>130</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Input file:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Output folder:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="btn_convert">
+     <property name="text">
+      <string>Convert</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="btn_locate_file">
+     <property name="text">
+      <string>Locate</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="btn_locate_folder_2">
+     <property name="text">
+      <string>Locate</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="rbtn_tocsv">
+         <property name="text">
+          <string>to CSV</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="rbtn_toxml">
+         <property name="text">
+          <string>to XML</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="textEdit"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="textEdit_2"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_locate_file</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_locate_file_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>547</x>
+     <y>22</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_locate_folder_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_locate_folder_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>547</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_convert</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_convert_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>299</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_locate_file_clicked()</slot>
+  <slot>btn_locate_folder_clicked()</slot>
+  <slot>btn_convert_clicked()</slot>
+  <slot>rbtn_tocsv_clicked()</slot>
+  <slot>slot2()</slot>
+ </slots>
+</ui>

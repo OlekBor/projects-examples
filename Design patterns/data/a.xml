@@ -1,0 +1,4 @@
+<test_0><date>01.09.2021</date><time>13:00:10</time><speed>19.44</speed><distance>1.62</distance><desc>First test</desc></test_0>
+<test_1><date>01.09.2021</date><time>1:02:10</time><speed>13.61</speed><distance>1.08</distance><desc>Second test</desc></test_1>
+<test_2><date>01.09.2021</date><time>1:07:10</time><speed>5.83</speed><distance>0.54</distance><desc>Third test</desc></test_2>
+<test_3><date>01.09.2021</date><time>1:12:10</time><speed>9.72</speed><distance>3.24</distance><desc>Fourth test</desc></test_3>
