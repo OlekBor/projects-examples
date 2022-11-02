@@ -1,7 +1,13 @@
 # Project Architectural design patterns
+
+## Required
+
+* PySide6
+
 ## Overview
 
 Aim of this project is to create a simple application that will be interconnector between „old” and „new” application in enterprise using few of patterns presented during lecture.
+
 ## Application functionality description
 
 Application will take input file in format specify later in this document and convert it to one of the outputs specify later.
@@ -38,3 +44,5 @@ Date Time Speed Distance Description
 * Speed will be in knots (nautical miles per hour)
 * Distance will be provided Nautical miles
 * Description will be alphanumeric characters
+
+# Resulting .exe located in ./dist/testconv.exe
