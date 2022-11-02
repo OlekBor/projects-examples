@@ -1,3 +1,5 @@
 # Machine learning projects examples
 
-## Projects will be added soon...
+## 1. Linear regression estimation
+
+## More projects will be added soon...
